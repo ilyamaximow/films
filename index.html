@@ -3,9 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Films</title>
   </head>
   <body>
-    test
+    <div class="container">
+      <h1 class="hero__title">Посмотреть</h1>
+      <div class="films-wrapper">
+        <div class="input-wrapper">
+          <input
+            type="text"
+            placeholder="Добавить фильм"
+            class="films__input js-films__input"
+          />
+          <button class="films__btn js-films__btn">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 512 512"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M391.344 141L506 255.656L391.344 370.311L378.584 357.551L471.456 264.679H6V246.633H471.456L378.584 153.76L391.344 141Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul class="films__list js-films__list">
+          <li class="films__item js-films__item">
+            <button class="chechout">O</button>
+            Остров проклятых
+            <button class="delete">X</button>
+          </li>
+          <li class="films__item js-films__item">
+            <button class="chechout">O</button>
+            Остров проклятых
+            <button class="delete">X</button>
+          </li>
+          <li class="films__item js-films__item">
+            <button class="chechout">O</button>
+            Остров проклятых
+            <button class="delete">X</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

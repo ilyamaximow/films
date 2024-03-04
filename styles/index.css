@@ -1,0 +1,89 @@
+body {
+  background-color: #181818;
+}
+
+input,
+button,
+p,
+h1,
+LI {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 65%;
+  margin: 130px auto;
+}
+
+.hero__title {
+  margin-bottom: 45px;
+  font-size: 108px;
+  font-weight: 500;
+}
+
+.films-wrapper {
+  padding: 60px 80px;
+  background-color: #232323;
+  border-radius: 30px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.films__input {
+  width: 50%;
+  font-family: inherit;
+  font-size: 32px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 3px solid #3a3939;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.films__input:focus {
+  outline: none;
+}
+
+.films__btn {
+  /* padding: 0px 15px; */
+  background-color: #6531f8;
+  /* font-size: 64px; */
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.films__item {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  /* justify-content: left; */
+  gap: 20px;
+  background-color: #3a3939;
+  font-size: 22px;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+.chechout {
+  font-size: 22px;
+}
+
+.delete {
+  font-size: 22px;
+  margin-left: auto;
+}
